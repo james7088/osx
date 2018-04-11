@@ -1,0 +1,4 @@
+  - create the /etc/resolver as root
+  - decrypt files
+  - copy to /etc/resolver
+  - done

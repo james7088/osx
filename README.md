@@ -4,15 +4,9 @@ all things osx
 ## Software installed
 
   - xcode-select --install
-  - git
-  - easy_install --user pip
-    - ansible==1.9.6
-    - pyvmomi
-    - xmltodict
-    - prettytable
-    - ipython
   - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   - brew install
+    - git
     - wget
     - openconnect
     - tmux
@@ -20,7 +14,14 @@ all things osx
     - youtube-dl 
     - ssh-copy-id 
     - python3
+    - python
+    - ipython
     - speedtest-cli
+    - pip
+      - ansible==1.9.6
+      - pyvmomi
+      - xmltodict
+      - prettytable
 
 ## Applications Installed
   ### App Store
@@ -36,5 +37,5 @@ all things osx
     - Evernote for License
   - Chrome
   - iterm2
- 
+  - postman
 
